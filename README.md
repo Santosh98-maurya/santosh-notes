@@ -98,3 +98,4 @@ Hash of the block
 Hash of the previous block
 
 The data recorded in a block depends on the blockchain type. For example, Bitcoin Blockchain saves the details about a transaction such as a receiver, sender and number of coins. A hash of the block is similar to a fingerprint(always unique) that provides identification to the block and its contents. Once a block is created, a hash gets generated. Hash value gets changed with every change in the block. Therefore, hash values help in detecting the changes made to blocks. Containing a hash of the previous block means every block is linked to each other and creates a chain of blocks, known as “Blockchain.” Once the data has been recorded or added in a blockchain, it becomes difficult to change it.
+
