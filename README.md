@@ -87,9 +87,11 @@ Namespace :- A namespace is a group of related elements that each have a unique 
 
 DataStore :- A datastore is a repository for storing, managing and distributing data sets on an enterprise level. It is a broad term that incorporates all types of data that is produced, stored and used by an organization. A datastore may include data from end user database applications, files or documents, or the random data property of an organization or an information system. Datastore data may be structured, unstructured or in another electronic format.
 
-Docker :- Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. Docker is a tool that is designed to benefit both developers and system administrators, making it a part of many DevOps (developers + operations) toolchains. Docker brings security to applications running in a shared environment, but containers by themselves are not an alternative to taking proper security measures.
+Docker :- 
+  Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer   to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one       package. Docker is a tool that is designed to benefit both developers and system administrators, making it a part of many DevOps         (developers + operations) toolchains. Docker brings security to applications running in a shared environment, but containers by         themselves are not an alternative to taking proper security measures.
 
-Blockchain :- it is a distributed ledger where the saved digital records are distributed across all participating nodes in the network. Each node maintains an updated copy of the ledger.a blockchain is a chain of blocks, containing time-stamped digital records. Initially described by a group of researchers in 1991, this technique was intended to timestamp digital records so that no one could backdate or tamper them. Block
+Blockchain :- 
+  it is a distributed ledger where the saved digital records are distributed across all participating nodes in the network. Each node     maintains an updated copy of the ledger.a blockchain is a chain of blocks, containing time-stamped digital records. Initially           described by a group of researchers in 1991, this technique was intended to timestamp digital records so that no one could backdate or   tamper them. Block
 
 Every block comprises of-
 
@@ -99,3 +101,5 @@ Hash of the previous block
 
 The data recorded in a block depends on the blockchain type. For example, Bitcoin Blockchain saves the details about a transaction such as a receiver, sender and number of coins. A hash of the block is similar to a fingerprint(always unique) that provides identification to the block and its contents. Once a block is created, a hash gets generated. Hash value gets changed with every change in the block. Therefore, hash values help in detecting the changes made to blocks. Containing a hash of the previous block means every block is linked to each other and creates a chain of blocks, known as “Blockchain.” Once the data has been recorded or added in a blockchain, it becomes difficult to change it.
 
+Data Store:
+  A data store is repository for persistently storing and managing collections of data which include not just repositories like           databases, emails etc. 
