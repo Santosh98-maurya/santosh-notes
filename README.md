@@ -103,3 +103,22 @@ The data recorded in a block depends on the blockchain type. For example, Bitcoi
 
 Data Store:
   A data store is repository for persistently storing and managing collections of data which include not just repositories like           databases, emails etc. 
+
+API:
+  API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to       eachother. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+
+data Serialization:
+  Data serialization is the process of converting data objects present in complex data structures into a byte stream for storage,         transfer and distribution purposes on physical devices. 
+  Choice of data serialization format for an application depends on factors such as data complexity, need for human readability, speed     and storage space constraints. XML, JSON, BSON, YAML, MessagePack, and protobuf are some commonly used data serialization formats.
+  
+DMA:
+  Direct memory access (DMA) is a feature of computer systems that allows certain hardware subsystems to access main system memory         (random-access memory), independent of the central processing unit (CPU).
+   
+RDMA:
+  In computing, remote direct memory access (RDMA) is a direct memory access from the memory of one computer into that of another         without involving either one's operating system. This permits high-throughput, low-latency networking, which is especially useful in     massively parallel computer clusters.
+
+NUMA:
+  Under NUMA, a processor can access its own local memory faster than non-local memory (memory local to another processor or memory       shared between processors). The benefits of NUMA are limited to particular workloads, notably on servers where the data is often         associated strongly with certain tasks or users.
+
+Time Series Database:
+  A time series database(TSDB) is a software system that is optimized for storing and serving time series through associated pairs of     time(s) and value(s). In some fields, time series may be called profiles, curves, traces or trends. Several early time series           databases are associated with industrial applications which could efficiently store measured values from sensory equipment but now are   used in support of a much wider range of applications.
